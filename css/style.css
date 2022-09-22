@@ -234,5 +234,69 @@ body {
     line-height: 160%;
     color: #FFFFFF;
     opacity: 0.7;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+}
+/* ///////////////////////////////////////// */
+.slide-container{
+    max-width: 1400px;
+    width: 100%;
+}
+.slide-content{
+    padding: 45px 20px;
+    overflow:hidden;
+    border-radius: 25px;
+}
+.card{
+    width: 362px;
+    height: 389px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color:#101825FF;    
+}
+.image-content{
+    position: relative;
+}
+.card-image{
+    position: relative;
+    height: 80px;
+    width: 70;
+    padding: 3px;
+}
+.card-image>.card-img{
+     width: 73px;
+    height: 100%;
+    object-fit: cover;
+}
+.card-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px 14px;
+}
+.name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-top: 30px;
+}  
+
+.description{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.7;
+padding-top: 30px;
 }
